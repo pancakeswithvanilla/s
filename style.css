@@ -114,3 +114,99 @@ font-weight: 700;
     opacity:0.5;
     border-radius:0px 10px 10px 0px;
 }
+@media(max-width:1100px)
+{
+    .box
+    {
+        display:grid;
+        grid-template-rows:30% 70%;
+        height:750px;
+        top:100px;
+       margin-bottom:100px;
+       border-radius:10px 10px 10px 10px;
+    }
+    .text-box
+    {
+        grid-row:2/3;
+        width:100%;
+        border-radius:10px 10px 10px 10px;
+    }
+    .title
+    {
+        width:75%;
+        margin-left:12.5%;
+        margin-right:12.5%;
+        margin-bottom:0%;
+        font-size:20px;
+       top:10%;
+       text-align:center;
+    }
+    .effect
+    {
+        border-radius:10px 10px 0px 10px;
+    }
+    .image-box img
+{ 
+    border-radius:10px 10px 0px 0px;
+}
+    .information 
+    { 
+       
+        top:15%;
+        position:relative;
+        margin-left:12.5%;
+        margin-right:12.5%;
+       width:70%;
+       text-align:center;
+    }
+    
+    .image-box
+    {
+        background-image:url(/image-header-mobile.jpg);
+        width:100%;
+        height:100%;
+        border-radius:10px 10px 0px 10px;
+    }
+    .stats-box
+    {
+        display:grid;
+        grid-template-columns:0;
+        position: absolute;
+        grid-template-rows:repeat(6, 40px);
+        width:50%;
+        top:55%;
+        height:40%;
+        left:25%;
+    }
+    #companies
+{
+   position:relative;
+    grid-row:2/3;
+}
+#k
+{
+    width:100%;
+    position:relative;
+}
+#templates
+{
+    grid-row:4/5;
+    position:relative;
+}
+#nom
+{
+    grid-row:3/4;
+    position:relative;
+}
+#M
+{
+    grid-row:5/6;
+    position:relative;
+}
+#queries
+{
+    grid-row:6/7;
+    position:relative;
+}
+   
+}
